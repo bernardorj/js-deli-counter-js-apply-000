@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
-    if (katzDeliLine.length > 0) {
+    if (katzDeliLine.length >= 0) {
       return `Currently serving ${katzDeliLine[0]}.` //first person in line has index = 0
       katzDeliLine.shift();
     } else {
