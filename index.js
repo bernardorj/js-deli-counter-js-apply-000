@@ -18,9 +18,9 @@ function currentLine(line){
   if (line.length > 0) {
     let positionInLine = line.length + 1;
 
-    let numberedLine = line.forEach(function(){
+    let numberedLine = line.forEach(
       line.unshift(line.length + '.')
-    });
+  );
 
     return `The line is currently: ${numberedLine}. `
 
