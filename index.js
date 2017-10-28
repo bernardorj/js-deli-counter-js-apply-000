@@ -9,10 +9,10 @@ function takeANumber(katzDeliLine, name){
 function nowServing(deliLine){
     if (deliLine.length > 0) {
       return `Currently serving ${deliLine[0]}.` //first person in line has index = 0
-      deliLine.shift();
     } else {
       return "There is nobody waiting to be served!"
   }
+  deliLine.shift();
 }
 
 function currentLine(katzDeliLine){
