@@ -7,3 +7,12 @@ function takeANumber(katzDeliLine, name){
       return `Welcome, ${name}. You are number ${positionInLine} in line.`
   }
 }
+
+function nowServing(){
+  if (katzDeliLine.length > 0) {
+    return firstPerson
+    katzDeliLine = katzDeliLine.shift();
+  } else {
+    return "There is nobody waiting to be served!"
+  }
+}
