@@ -9,10 +9,8 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(){
-  let firstPerson = katzDeliLine[0];
-  
   if (katzDeliLine.length > 0) {
-    return firstPerson
+    return katzDeliLine[0] //first person in line has index = 0
     katzDeliLine = katzDeliLine.shift();
   } else {
     return "There is nobody waiting to be served!"
