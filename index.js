@@ -7,7 +7,9 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(deliLine){
-      return `Currently serving ${deliLine[0]}.`; //first person in line has index = 0
+  return `Currently serving ${deliLine[0]}.`;  //first person in line has index = 0
+
+deliLine.shift();
 }
 
 function currentLine(line){
