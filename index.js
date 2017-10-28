@@ -1,9 +1,8 @@
 function takeANumber(katzDeliLine, name){
-  let i=0; //0 index is 1st person in line
+  for (let i=0;; i++) //0 index is 1st person in line
   let positionInLine = i+1;
 
   katzDeliLine = katzDeliLine.push(name);
 
   return `Welcome, ${name}. You are number ${positionInLine} in line.`
-  i++;
 }
