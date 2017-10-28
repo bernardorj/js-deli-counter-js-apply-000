@@ -12,9 +12,7 @@ if (deliLine.length !== 0){
   deliLine.shift();
 } else {
   return "There is nobody waiting to be served!"
-}
-
-deliLine.shift();
+  }
 }
 
 function currentLine(line){
