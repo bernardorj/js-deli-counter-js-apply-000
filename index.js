@@ -19,7 +19,7 @@ function currentLine(katzDeliLine){
   if (katzDeliLine.length > 0) {
     let positionInLine = katzDeliLine.length + 1;
 
-    numberedLine = katzDeliLine.forEach(function(){
+    let numberedLine = katzDeliLine.forEach(function(){
       katzDeliLine.unshift(katzDeliLine.length + '.')
     });
 
