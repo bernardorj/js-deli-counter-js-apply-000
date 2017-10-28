@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, name){
 
       katzDeliLine = katzDeliLine.push(name);
 
-      return `Welcome, ${name}. You are number ${positionInLine} in line.`  
+      return `Welcome, ${name}. You are number ${positionInLine} in line.`
     } else {
       positionInLine = i+1; //0 index is 1st person in line
 
