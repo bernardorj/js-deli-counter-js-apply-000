@@ -1,6 +1,6 @@
 function takeANumber(katzDeliLine, name){
     let i = katzDeliLine.length-1;
-    let positionInLine = i+1; //0 index is 1st person in line
+    let positionInLine = katzDeliLine.length; //0 index is 1st person in line
 
     katzDeliLine = katzDeliLine.push(name);
 
