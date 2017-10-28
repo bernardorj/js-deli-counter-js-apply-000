@@ -20,7 +20,7 @@ function currentLine(katzDeliLine){
     let positionInLine = katzDeliLine.length + 1;
 
     return `The line is currently: ${positionInLine}. name`
-    
+
   } else {
     return "The line is currently empty."
   }
