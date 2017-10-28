@@ -12,7 +12,6 @@ function nowServing(deliLine){
     } else {
       return "There is nobody waiting to be served!";
   }
-  return deliLine
 }
 
 function currentLine(line){
