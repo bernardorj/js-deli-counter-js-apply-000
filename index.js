@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine, name){
-    let positionInLine = katzDeliLine.length + 1;
+    let positionInLine = katzDeliLine.length + 1; //first instance the length = 0
 
     katzDeliLine = katzDeliLine.push(name);
 
