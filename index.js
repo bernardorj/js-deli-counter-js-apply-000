@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name){
     return `Welcome, ${name}. You are number ${positionInLine} in line.`
 }
 
-function nowServing(){
+function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0) {
     return katzDeliLine[0] //first person in line has index = 0
     katzDeliLine = katzDeliLine.shift();
