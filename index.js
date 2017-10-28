@@ -19,7 +19,7 @@ function currentLine(line){
     let positionInLine = line.length + 1;
 
     let numberedLine = line.forEach(
-      line.unshift(line.length + '.')
+      line.unshift([line.length] + '.')
   );
 
     return `The line is currently: ${numberedLine}. `
