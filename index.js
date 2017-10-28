@@ -16,16 +16,5 @@ function nowServing(deliLine){
 }
 
 function currentLine(line){
-  if (line.length > 0) {
-    let positionInLine = line.length + 1;
-
-    let numberedLine = line.forEach(
-      line.unshift()
-  );
-
-    return `The line is currently: ${numberedLine}. `
-
-  } else {
-    return "The line is currently empty."
-  }
+  
 }
