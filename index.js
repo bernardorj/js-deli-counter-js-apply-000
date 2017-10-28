@@ -14,12 +14,12 @@ function nowServing(deliLine){
   }
 }
 
-function currentLine(katzDeliLine){
-  if (katzDeliLine.length > 0) {
-    let positionInLine = katzDeliLine.length + 1;
+function currentLine(line){
+  if (line.length > 0) {
+    let positionInLine = line.length + 1;
 
-    let numberedLine = katzDeliLine.forEach(function(){
-      katzDeliLine.unshift(katzDeliLine.length + '.')
+    let numberedLine = line.forEach(function(){
+      line.unshift(line.length + '.')
     });
 
     return `The line is currently: ${numberedLine}. `
