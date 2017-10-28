@@ -12,7 +12,7 @@ function nowServing(deliLine){
     } else {
       return "There is nobody waiting to be served!";
   }
-  deliLine.shift();
+  deliLine.pop();
 }
 
 function currentLine(katzDeliLine){
