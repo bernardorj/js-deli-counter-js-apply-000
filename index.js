@@ -9,6 +9,8 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(){
+  let firstPerson = katzDeliLine[0];
+  
   if (katzDeliLine.length > 0) {
     return firstPerson
     katzDeliLine = katzDeliLine.shift();
