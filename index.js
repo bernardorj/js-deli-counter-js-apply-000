@@ -19,7 +19,11 @@ function currentLine(katzDeliLine){
   if (katzDeliLine.length > 0) {
     let positionInLine = katzDeliLine.length + 1;
 
-    return `The line is currently: ${positionInLine}. name`
+    numberedLine = katzDeliLine.forEach(function(){
+      katzDeliLine.unshift(katzDeliLine.length + '.')
+    });
+
+    return `The line is currently: ${numberedLine}. `
 
   } else {
     return "The line is currently empty."
