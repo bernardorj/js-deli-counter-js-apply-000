@@ -19,7 +19,7 @@ function currentLine(line){
   if (line.length !== 0){
 
     for (let i = 0; i < line.length; i++){
-      line.unshift(parseInt(i) + ".")
+      line.unshift(parseInt(i) + ".");
     }
 
     return `The line is currently: ${line}.`
