@@ -21,7 +21,7 @@ function currentLine(line){
     for (let i = 0; i < line.length; i++){
       line.unshift(parseInt(i) + ".")
     }
-    
+
     return `The line is currently: ${line}.`
 
   } else {
