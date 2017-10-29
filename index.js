@@ -17,6 +17,11 @@ function nowServing(deliLine){
 
 function currentLine(line){
   if (line.length !== 0){
+
+    for (let i = 0; i < line.length; i++){
+      line[i].unshift(parseInt(i) + ".")
+    }
+    
     return `The line is currently: ${line}.`
 
   } else {
